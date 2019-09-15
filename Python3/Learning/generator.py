@@ -16,4 +16,4 @@ def primes(n = 1):
 
 for n in primes():
 	if n > 100: break
-	print(n)
+	print(n, end=' ')
